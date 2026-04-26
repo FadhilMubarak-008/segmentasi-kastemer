@@ -1,6 +1,6 @@
 # 📊 Customer Segmentation using K-Means
 
-## 🧠 Overview
+## 1. Overview
 
 Project ini dibuat untuk memahami bagaimana cara mengelompokkan customer berdasarkan karakteristik mereka menggunakan metode Machine Learning, khususnya **K-Means Clustering**.
 
@@ -58,7 +58,7 @@ Beberapa langkah yang dilakukan:
 Beberapa insight awal yang ditemukan:
 
 * Customer dengan usia lebih tinggi cenderung memiliki spending lebih tinggi
-* Customer yang belum menikah didominasi oleh low spending
+* Customer yang belum menikah didominasi oleh low spending (pengeluarang rendah)
 * Gender tidak menunjukkan perbedaan signifikan terhadap perilaku spending
 * Family size memiliki pengaruh terhadap pola spending
 
@@ -104,8 +104,8 @@ Segmen ini berpotensi untuk strategi personalized marketing
 
 ### 🔴 Cluster 3 — Young Low Engagement
 
-* Usia lebih muda
-* Spending sangat rendah
+* Usia yang lebih muda
+* Spendingnya sangat rendah
 
 👉 Insight:
 Fokus pada awareness atau bisa tidak menjadi prioritas utama
@@ -142,13 +142,11 @@ Dari project ini, saya belajar bahwa:
 ## 📌 Future Improvement
 
 * Mencoba jumlah cluster lain (k=5) untuk perbandingan
-* Menggunakan PCA untuk visualisasi cluster
-* Membuat dashboard interaktif (Streamlit / Power BI)
 
 ---
 
 ## 🙌 Closing
 
-Project ini masih jauh dari sempurna, tapi jadi langkah awal untuk memahami dunia Data Science secara lebih praktikal.
+Project ini masih jauh dari sempurna, tapi menjadi langkah awal untuk memahami dunia Data Science secara lebih mendalam.
 
-Kalau kamu juga lagi belajar, semangat ya — kita sama-sama lagi di proses 🚀
+Aku sedang dalam proses belajar ☺️
