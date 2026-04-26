@@ -17,7 +17,7 @@ Tujuan utamanya bukan cuma bikin model, tapi juga mencoba memahami:
 
 ---
 
-## 🎯 Problem Statement
+## 2. Problem Statement
 
 Bagaimana cara mengelompokkan customer agar perusahaan dapat:
 
@@ -27,7 +27,7 @@ Bagaimana cara mengelompokkan customer agar perusahaan dapat:
 
 ---
 
-## 📁 Dataset
+## 3. Dataset
 
 Dataset yang digunakan berisi informasi customer seperti:
 
@@ -40,7 +40,7 @@ Dataset yang digunakan berisi informasi customer seperti:
 
 ---
 
-## 🛠️ Data Preprocessing
+## 4. Data Preprocessing
 
 Beberapa langkah yang dilakukan:
 
@@ -53,7 +53,7 @@ Beberapa langkah yang dilakukan:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## 5. Exploratory Data Analysis (EDA)
 
 Beberapa insight awal yang ditemukan:
 
@@ -64,7 +64,7 @@ Beberapa insight awal yang ditemukan:
 
 ---
 
-## 🤖 Modeling (K-Means Clustering)
+## 6. Modeling (K-Means Clustering)
 
 * Menggunakan metode **Elbow Method** untuk menentukan jumlah cluster
 * Dipilih jumlah cluster = **4** karena penurunan inertia mulai melambat setelah titik tersebut
@@ -73,12 +73,12 @@ Beberapa insight awal yang ditemukan:
 
 ## 🔍 Hasil Clustering
 
-### 🟢 Cluster 0 — General Customers
+###  Cluster 0 — General Customers
 
 * Jumlah terbesar
 * Didominasi oleh low hingga average spending
 
-👉 Insight:
+Insight:
 Segmen ini bisa ditingkatkan melalui strategi upselling
 
 ---
