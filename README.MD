@@ -1,10 +1,10 @@
-# 📊 Customer Segmentation using K-Means
+# 📊 Segmentasi kastemer dengan menggunakan K-Means
 
 ## 1. Overview
 
 Project ini dibuat untuk memahami bagaimana cara mengelompokkan customer berdasarkan karakteristik mereka menggunakan metode Machine Learning, khususnya **K-Means Clustering**.
 
-Sebagai seseorang yang masih dalam tahap belajar di bidang Data Science, project ini jadi latihan untuk menggabungkan:
+Sebagai seseorang yang masih dalam tahap belajar di bidang Data Science dan machine learning, project ini jadi latihan untuk menggabungkan:
 
 * Data Cleaning
 * Exploratory Data Analysis (EDA)
