@@ -83,36 +83,36 @@ Segmen ini bisa ditingkatkan melalui strategi upselling
 
 ---
 
-### 🔵 Cluster 1 — Low Value Segment
+###  Cluster 1 — Low Value Segment
 
 * Spending sangat rendah
 * High spender hampir tidak ada
 
-👉 Insight:
+Insight:
 Perlu pendekatan promo atau strategi entry-level
 
 ---
 
-### 🟡 Cluster 2 — Potential Segment (Small Group)
+###  Cluster 2 — Potential Segment (Small Group)
 
 * Jumlah kecil tapi memiliki proporsi high spending cukup tinggi
 
-👉 Insight:
+Insight:
 Segmen ini berpotensi untuk strategi personalized marketing
 
 ---
 
-### 🔴 Cluster 3 — Young Low Engagement
+###  Cluster 3 — Young Low Engagement
 
 * Usia yang lebih muda
 * Spendingnya sangat rendah
 
-👉 Insight:
+Insight:
 Fokus pada awareness atau bisa tidak menjadi prioritas utama
 
 ---
 
-## 💡 Key Insights
+## Hasil Insights :
 
 * Age menjadi faktor yang cukup kuat dalam membedakan perilaku customer
 * Tidak semua customer memiliki nilai bisnis yang sama
@@ -120,32 +120,28 @@ Fokus pada awareness atau bisa tidak menjadi prioritas utama
 
 ---
 
-## 🚀 What I Learned
+## Apa yang saya pelajari?
 
 Dari project ini, saya belajar bahwa:
 
-* Machine Learning bukan cuma soal model, tapi soal **insight**
+* Sebelum melakukan analisis kita harus tahu tujuan dan apa masalah yang ingin kita selesaikan
+* Machine Learning bukan cuma soal model canggih, tapi soal **insight**
 * Data preprocessing itu krusial dan bisa mempengaruhi hasil akhir
+* Memahami hubungan feature dan target adalah hal yang sangat penting
 * Storytelling dari data itu sama pentingnya dengan coding
 
 ---
 
-## 🔧 Tools & Libraries
+## 🔧 Tools & Libraries yang saya pakai
 
 * Python
 * Pandas
-* Matplotlib / Seaborn
+* Matplotlib
 * Scikit-learn
 
 ---
 
-## 📌 Future Improvement
-
-* Mencoba jumlah cluster lain (k=5) untuk perbandingan
-
----
-
-## 🙌 Closing
+##  Penutup
 
 Project ini masih jauh dari sempurna, tapi menjadi langkah awal untuk memahami dunia Data Science secara lebih mendalam.
 
