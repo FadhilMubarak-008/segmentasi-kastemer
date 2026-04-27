@@ -6,10 +6,10 @@ Project ini dibuat untuk memahami bagaimana cara mengelompokkan customer berdasa
 
 Sebagai seseorang yang masih dalam tahap belajar di bidang Data Science dan machine learning, project ini jadi latihan untuk menggabungkan:
 
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Machine Learning
-* Business Insight
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Machine Learning
+- Business Insight
 
 Tujuan utamanya bukan cuma bikin model, tapi juga mencoba memahami:
 
@@ -21,9 +21,9 @@ Tujuan utamanya bukan cuma bikin model, tapi juga mencoba memahami:
 
 Bagaimana cara mengelompokkan customer agar perusahaan dapat:
 
-* memahami karakter tiap segmen
-* menentukan strategi marketing yang lebih tepat
-* meningkatkan potensi revenue
+- memahami karakter tiap segmen
+- menentukan strategi marketing yang lebih tepat
+- meningkatkan potensi revenue
 
 ---
 
@@ -31,12 +31,12 @@ Bagaimana cara mengelompokkan customer agar perusahaan dapat:
 
 Dataset yang digunakan berisi informasi customer seperti:
 
-* Age
-* Gender
-* Profession
-* Work Experience
-* Family Size
-* Spending Score
+- Age
+- Gender
+- Profession
+- Work Experience
+- Family Size
+- Spending Score
 
 ---
 
@@ -44,12 +44,12 @@ Dataset yang digunakan berisi informasi customer seperti:
 
 Beberapa langkah yang dilakukan:
 
-* Mengatasi missing values:
+- Mengatasi missing values:
 
   * Numerical → diisi dengan median
   * Categorical → diisi dengan "Unknown"
-* Encoding categorical features menggunakan `pd.get_dummies()`
-* Feature scaling menggunakan `StandardScaler`
+- Encoding categorical features menggunakan `pd.get_dummies()`
+- Feature scaling menggunakan `StandardScaler`
 
 ---
 
@@ -57,17 +57,17 @@ Beberapa langkah yang dilakukan:
 
 Beberapa insight awal yang ditemukan:
 
-* Customer dengan usia lebih tinggi cenderung memiliki spending lebih tinggi
-* Customer yang belum menikah didominasi oleh low spending (pengeluarang rendah)
-* Gender tidak menunjukkan perbedaan signifikan terhadap perilaku spending
-* Family size memiliki pengaruh terhadap pola spending
+- Customer dengan usia lebih tinggi cenderung memiliki spending lebih tinggi
+- Customer yang belum menikah didominasi oleh low spending (pengeluarang rendah)
+- Gender tidak menunjukkan perbedaan signifikan terhadap perilaku spending
+- Family size memiliki pengaruh terhadap pola spending
 
 ---
 
 ## 6. Modeling (K-Means Clustering)
 
-* Menggunakan metode **Elbow Method** untuk menentukan jumlah cluster
-* Dipilih jumlah cluster = **4** karena penurunan inertia mulai melambat setelah titik tersebut
+- Menggunakan metode **Elbow Method** untuk menentukan jumlah cluster
+- Dipilih jumlah cluster = **4** karena penurunan inertia mulai melambat setelah titik tersebut
 
 ---
 
@@ -75,8 +75,8 @@ Beberapa insight awal yang ditemukan:
 
 ###  Cluster 0 — General Customers
 
-* Jumlah terbesar
-* Didominasi oleh low hingga average spending
+- Jumlah terbesar
+- Didominasi oleh low hingga average spending
 
 Insight:
 Segmen ini bisa ditingkatkan melalui strategi upselling
@@ -85,8 +85,8 @@ Segmen ini bisa ditingkatkan melalui strategi upselling
 
 ###  Cluster 1 — Low Value Segment
 
-* Spending sangat rendah
-* High spender hampir tidak ada
+- Spending sangat rendah
+- High spender hampir tidak ada
 
 Insight:
 Perlu pendekatan promo atau strategi entry-level
@@ -95,7 +95,7 @@ Perlu pendekatan promo atau strategi entry-level
 
 ###  Cluster 2 — Potential Segment (Small Group)
 
-* Jumlah kecil tapi memiliki proporsi high spending cukup tinggi
+- Jumlah kecil tapi memiliki proporsi high spending cukup tinggi
 
 Insight:
 Segmen ini berpotensi untuk strategi personalized marketing
@@ -104,8 +104,8 @@ Segmen ini berpotensi untuk strategi personalized marketing
 
 ###  Cluster 3 — Young Low Engagement
 
-* Usia yang lebih muda
-* Spendingnya sangat rendah
+- Usia yang lebih muda
+- Spendingnya sangat rendah
 
 Insight:
 Fokus pada awareness atau bisa tidak menjadi prioritas utama
@@ -114,9 +114,9 @@ Fokus pada awareness atau bisa tidak menjadi prioritas utama
 
 ## Hasil Insights :
 
-* Age menjadi faktor yang cukup kuat dalam membedakan perilaku customer
-* Tidak semua customer memiliki nilai bisnis yang sama
-* Segmentasi membantu perusahaan fokus pada target yang lebih tepat
+- Age menjadi faktor yang cukup kuat dalam membedakan perilaku customer
+- Tidak semua customer memiliki nilai bisnis yang sama
+- Segmentasi membantu perusahaan fokus pada target yang lebih tepat
 
 ---
 
@@ -124,11 +124,11 @@ Fokus pada awareness atau bisa tidak menjadi prioritas utama
 
 Dari project ini, saya belajar bahwa:
 
-* Sebelum melakukan analisis kita harus tahu tujuan dan apa masalah yang ingin kita selesaikan
-* Machine Learning bukan cuma soal model canggih, tapi soal **insight**
-* Data preprocessing itu krusial dan bisa mempengaruhi hasil akhir
-* Memahami hubungan feature dan target adalah hal yang sangat penting
-* Storytelling dari data itu sama pentingnya dengan coding
+- Sebelum melakukan analisis kita harus tahu tujuan dan apa masalah yang ingin kita selesaikan
+- Machine Learning bukan cuma soal model canggih, tapi soal **insight**
+- Data preprocessing itu krusial dan bisa mempengaruhi hasil akhir
+- Memahami hubungan feature dan target adalah hal yang sangat penting
+- Storytelling dari data itu sama pentingnya dengan coding
 
 ---
 
