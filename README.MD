@@ -4,6 +4,8 @@
 
 Project ini dibuat untuk memahami bagaimana cara mengelompokkan customer berdasarkan karakteristik mereka menggunakan metode Machine Learning, khususnya **K-Means Clustering**.
 
+Note : Dataset yang digunakan menggunakan dataset dari Kaggle
+
 Sebagai seseorang yang masih dalam tahap belajar di bidang Data Science dan machine learning, project ini jadi latihan untuk menggabungkan:
 
 - Data Cleaning
